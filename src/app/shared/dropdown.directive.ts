@@ -7,7 +7,7 @@ export class DropdownDirective{
     @HostBinding('class.open') isOpen=false;
 
     @HostListener('click') toggleOpen(){
-        this.isOpen= !this.isOpen;      // click korle true hoye jabe then toggle hbe
+        this.isOpen= !this.isOpen;      // click korle true hoye jabe then toggle hbe, ar class ta add hbe
 
     }
 
